@@ -4,6 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingStart="@dimen/horizontal_p"
+    android:paddingEnd="@dimen/horizontal_p"
+    android:paddingTop="@dimen/vertical_p"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -27,11 +30,18 @@
             android:layout_height="wrap_content"
             android:text="@string/search"/>
     </LinearLayout>
+    <FrameLayout
 
-    <TextView
-        android:id="@+id/tv_result"
-        android:layout_width="wrap_content"
+    ></FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/result"/>
+        android:layout_marginTop="@dimen/vertical_p">
 
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result"/>
+    </ScrollView>
 </LinearLayout>

@@ -9,7 +9,7 @@ import android.net.Uri;
 import java.util.Scanner;
 
 public class NetworkUtils {
-    private static final String VK_URL = "https://dev.vk.com";
+    private static final String VK_URL = "https:/api.vk.com";
     private static final String Vk_user_get = "/method/users.get";
     private static final String Vk_User_id = "user_ids";
     private static final String Vk_version = "v";
@@ -20,7 +20,7 @@ public class NetworkUtils {
                 .buildUpon()
                 .appendQueryParameter(Vk_User_id, userId)
                 .appendQueryParameter(Vk_version, "5.131")
-                .appendQueryParameter(ACCESS_TOKEN, "d6925db1d6925db1d6925db195d58172cedd692d6925db1b288ac33bc5cc10e7ef0f06d")
+                .appendQueryParameter(ACCESS_TOKEN, "9f46a7a69f46a7a69f46a7a6929c55902799f469f46a7a6fb5b3f172400d5940f2e3238")
                 .build();
         URL url = null;
         try {
