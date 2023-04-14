@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Vk Name</string>
-    <string name="write_vk_id">write vk id</string>
+    <string name="write_vk_id">Write vk id</string>
     <string name="search">Search</string>
-    <string name="result">result</string>
+    <string name="result">Result</string>
+    <string name="programm_name">VK Info</string>
 
     <string name="error_massege">sorry, but we cant connect, try again!!!</string>
 </resources>
